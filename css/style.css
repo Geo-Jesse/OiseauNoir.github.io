@@ -9,7 +9,7 @@ orange: #F05F40;
 pale gray: #CDD1D8;
 tan: #F8E2C9;
 atom gray: #1E2127;
-mostly black: #0E0907;
+mostly black: #0A0806;
 */
 
 body {
@@ -75,7 +75,7 @@ header .intro-text {
 .navbar-brand {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 .navbar-custom {
   background: #0A0806;
@@ -144,7 +144,7 @@ header .intro-text {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
   }
   .navbar-custom.affix {
     padding: 10px 0;
@@ -173,8 +173,11 @@ section.success {
     padding-top: 75px;
   }
 }
+.gold {
+  color: #F8E2C9;
+}
 #portfolio {
-  background-color: #0E0907;
+  background-color: #0A0806;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -280,14 +283,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #1E2127;
+  background-color: #0A0806;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #0E0907;
+  background-color: #0A0806;
 }
 .btn-outline {
   color: #cdd1d8;
@@ -422,19 +425,6 @@ fieldset[disabled] .btn-success.active {
 .scroll-top .btn:focus {
   outline: none;
 }
-
-/*Custom Styles
-font-family: 'Source Code Pro', monospace;
-font-family: 'Lato', sans-serif;
-turquoise: #18BC9C;
-orange: #F05F40;
-    delete ? paler gray: #F05F40;
-pale gray: #CDD1D8;
-tan: #F8E2C9;
-atom gray: #1E2127;
-mostly black: #0E0907;
-d*/
-
 
 
 .portfolio-modal .modal-content {
