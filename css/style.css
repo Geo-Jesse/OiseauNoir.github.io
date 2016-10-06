@@ -173,6 +173,9 @@ section.success {
     padding-top: 75px;
   }
 }
+#portfolio {
+  background-color: #0E0907;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -277,14 +280,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #0A0806;
+  background-color: #1E2127;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #000000;
+  background-color: #0E0907;
 }
 .btn-outline {
   color: #cdd1d8;
@@ -419,7 +422,24 @@ fieldset[disabled] .btn-success.active {
 .scroll-top .btn:focus {
   outline: none;
 }
+
+/*Custom Styles
+font-family: 'Source Code Pro', monospace;
+font-family: 'Lato', sans-serif;
+turquoise: #18BC9C;
+orange: #F05F40;
+    delete ? paler gray: #F05F40;
+pale gray: #CDD1D8;
+tan: #F8E2C9;
+atom gray: #1E2127;
+mostly black: #0E0907;
+d*/
+
+
+
 .portfolio-modal .modal-content {
+  color: #CDD1D8;
+  background-color: #1E2127;
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -430,11 +450,17 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
+  color: #CDD1D8;
   margin: 0;
+  padding-bottom: 40px;
   font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 .portfolio-modal .modal-content img {
+  margin: 0 auto;
   margin-bottom: 30px;
+  max-width: 500px;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
