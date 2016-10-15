@@ -437,7 +437,6 @@ fieldset[disabled] .btn-success.active {
   outline: none;
 }
 
-
 .portfolio-modal .modal-content {
   color: #CDD1D8;
   background-color: #1E2127;
@@ -469,40 +468,9 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
 }
-.portfolio-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #2C3E50;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #2C3E50;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
+.btn-default {
+  background-color: rgba(205, 209, 216, .75);
+  border-color: black;
 }
 .portfolio-modal .modal-backdrop {
   opacity: 0;
