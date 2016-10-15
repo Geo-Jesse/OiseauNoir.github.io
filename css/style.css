@@ -447,7 +447,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 30px 0;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
@@ -455,13 +455,16 @@ fieldset[disabled] .btn-success.active {
   margin: 0;
   padding-bottom: 40px;
   font-size: 3em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-weight: bold;
 }
 .portfolio-modal .modal-content img {
   margin: 0 auto;
   margin-bottom: 30px;
-  max-width: 500px;
+  max-width: 400px;
+}
+.portfolio-modal .modal-content .modal-body img:hover {
+  opacity: 0.75;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
