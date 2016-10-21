@@ -56,9 +56,9 @@ header img {
   background-size: cover;
   margin: 0 auto;
   /*width: 1920px;*/
-  max-height: 500px;
+  max-height: 550px;
   /*border-radius: 25px;*/
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 header .intro-text {
   font-size: 1.25em;
